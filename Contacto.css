@@ -2,27 +2,29 @@
   min-height: 894px;
 }
 
-.u-section-1 .u-layout-wrap-1 {
-  margin-top: 60px;
-  margin-bottom: 58px;
-}
-
-.u-section-1 .u-image-1 {
-  min-height: 772px;
-  background-image: url("images/hh5.jpg");
-  background-position: 50% 50%;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding: 30px 30px 20px;
-}
-
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
   background-image: none;
   font-weight: 700;
-  font-size: 3rem;
-  margin: 0;
+  font-size: 1.5rem;
+  margin-top: 36px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 772px;
+  background-image: url("images/hg5.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 10px 20px;
 }
 
 .u-section-1 .u-layout-cell-2 {
@@ -34,7 +36,7 @@
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 70px 13px 0;
 }
@@ -53,20 +55,25 @@
 }
 
 .u-section-1 .u-text-4 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin: 44px 13px 0;
+  margin: 0 26px;
 }
 
 .u-section-1 .u-icon-2 {
   width: 106px;
   height: 106px;
-  margin: 53px auto 0;
+  margin: 70px auto 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 685px;
+    min-height: 759px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 510px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -114,7 +121,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 714px;
+    min-height: 610px;
   }
 
   .u-section-1 .u-image-1 {
@@ -143,7 +150,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1066px;
+    min-height: 954px;
   }
 
   .u-section-1 .u-image-1 {
@@ -160,12 +167,16 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-image-1 {
-    min-height: 461px;
+  .u-section-1 .u-sheet-1 {
+    min-height: 683px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.5rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 461px;
   }
 
   .u-section-1 .u-text-4 {
